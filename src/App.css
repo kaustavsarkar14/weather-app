@@ -1,5 +1,7 @@
 .App {
   text-align: center;
+  margin: 0;
+  padding: 0;
 }
 
 .App-logo {
@@ -35,4 +37,57 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+
+.card {
+  width: 80vw;
+  margin: auto;
+  border-radius: 0.5rem;
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+  padding: 1rem;
+  margin-bottom: 3rem;
+}
+
+.input-field {
+  width: 70vw;
+  margin-top: 2rem;
+  padding: 0.4rem 0.5rem;
+  border-radius: 1rem;
+  border: none;
+  font-size: 1rem;
+  box-shadow: rgba(0, 0, 0, 0.02) 0px 1px 3px 0px, rgba(27, 31, 35, 0.15) 0px 0px 0px 1px;
+}
+.btn{
+  display: block;
+  margin: auto;
+  border: none;
+  margin-top: 1rem;
+  margin-bottom: 2rem;
+  cursor: pointer;
+  border-radius: 10px;
+  font-size: 1rem;
+  padding: 5px 10px;
+}
+
+.upper {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  border-radius: 1rem;
+  padding: 7px;
+  box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+}
+.upper>img {
+  width: 4.6rem;
+}
+.right{
+  display: flex;
+  flex-direction: column;
+}
+.right>p{
+  margin: 0.1rem;
+}
+.right>h2{
+  margin: 0.3rem;
 }
