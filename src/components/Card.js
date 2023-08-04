@@ -19,7 +19,7 @@ export default function Card() {
                     <p>{weather.data.current.condition.text}</p>
                 </div>
             </div>
-            <h4>{weather.data.location.name}</h4>
+            <h3>{weather.data.location.name}</h3>
             <p>{weather.data.location.region},{weather.data.location.country} </p>
             <p>Localtime - {weather.data.location.localtime}</p>
         </div>
